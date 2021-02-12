@@ -1,0 +1,37 @@
+
+.zoomIcon {
+    background: url("../img/icon.png") repeat scroll 0 0 transparent;
+    height: 33px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 33px;
+}
+/*
+.zoomIcon {        
+    position: absolute;
+    right: 0;
+    top: 0;      
+}
+.zoomIcon:before {
+   content: "\f002";
+    display: inline-block;
+    font: 400 14px/31px "FontAwesome";    
+    margin: 0;
+    height: 25px;
+    width: 25px;
+    text-align: center;    
+  }
+*/
+ 
+#pb-right-column #image-block img {
+    border: none!important;
+}
+
+#pb-right-column #image-block {
+    border: 1px solid #CDCDCD;    
+}
+
+.zoomImg:hover, .zoomImg:active {     
+ cursor: crosshair;
+}

@@ -1,0 +1,68 @@
+.header_user_info {
+    font-family: 'Carter One', cursive;
+    text-align: end;
+    float: left;
+    /* border-left: 1px solid #515151;
+    border-right: 1px solid #515151;*/ }
+
+.header_user_info a {
+    color: #fff;
+    /* font-weight: bold; */
+    display: block;
+    padding: 8px 9px 11px 8px;
+    cursor: pointer;
+    line-height: 18px;
+    font-size: 18px;
+    position: relative;
+    top: -6px;
+    left: 7px;
+    width: 100%;
+    margin-right: 20px;
+    text-align: left;
+}
+
+i.fas.fa-sign-in-alt, i.fas.fa-sign-out-alt, i.fas.fa-user-alt {
+    color: #99f299;
+    font-size: 20px;
+    /*float: left;*/
+    text-align: end;
+    position: relative;
+    left: -16px;
+    top: 1px;
+}
+
+.fas.fa-sign-in-alt {
+    position: relative;
+    left: -16px;
+    top: -2px;
+}
+
+.fas{
+    position: relative;
+    left: 3px;
+}
+
+@media (min-width: 461px){
+    
+    float:left;
+}
+
+@media (max-width: 460px ){
+
+    .header_user_info{
+        width: 100%;
+    }
+
+    .header_user_info a, .header_user_info i{
+        text-align: center;
+    }
+
+    .header_user_info a{
+        width: 100%;
+    }
+
+    .fas.fa-sign-in-alt {
+        position: relative;
+        top: -2px;
+    }
+}

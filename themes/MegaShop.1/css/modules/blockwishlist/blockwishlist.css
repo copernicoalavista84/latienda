@@ -1,0 +1,135 @@
+/* lnk on detail product page */
+#primary_block #wishlist_button {}
+  #primary_block #wishlist_button:before {}
+
+/* wishlist block */
+#wishlist_block #wishlist_block_list {
+  margin: 0 0 20px 0; }
+  #wishlist_block #wishlist_block_list dl {
+    font-weight: 400; }
+    #wishlist_block #wishlist_block_list dl.products.no-products {
+      font-weight: 700;
+      padding: 0 0 15px 0;
+      border-bottom: 1px solid #d6d4d4; }
+      #wishlist_block #wishlist_block_list dl.products.no-products dt {
+        padding: 0;
+        border-top: none; }
+      #wishlist_block #wishlist_block_list dl.products.no-products dd {
+        display: none; }
+    #wishlist_block #wishlist_block_list dl.products {
+      border-bottom: 1px solid #d6d4d4; }
+      #wishlist_block #wishlist_block_list dl.products dt {
+        padding: 20px 0 0;
+        border-top: 1px solid #d6d4d4; }
+      #wishlist_block #wishlist_block_list dl.products dd {
+        padding: 0 0 20px 0; }
+      #wishlist_block #wishlist_block_list dl.products dt.first_item {
+        padding: 0;
+        border-top: none; }
+    #wishlist_block #wishlist_block_list dl dt {
+      position: relative;
+      padding-right: 0; }
+    #wishlist_block #wishlist_block_list dl dd {
+      margin: 0 0 0 24px; }
+#wishlist_block .lnk .form-group {
+  margin: 0 0 20px 0; }
+  #wishlist_block .lnk .form-group select {
+    max-width: 192px; }
+    @media (max-width: 767px) {
+      #wishlist_block .lnk .form-group select {
+        width: 192px; } }
+#wishlist_block .ajax_cart_block_remove_link {
+  font-size: 14px;
+  line-height: 14px;
+  color: #d3d2d2;
+  width: 14px;
+  height: 14px;
+  float: right; }
+  #wishlist_block .ajax_cart_block_remove_link:hover {
+    color: #515151; }
+#wishlist_block .cart_block_product_name {
+  width: 85%;
+  display: inline-block;
+  font-weight: 700; }
+#wishlist_block .quantity-formated {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 15px; }
+
+#wishlist_block_list .price {
+  float: right; }
+
+/* page in my account ************************************************************************* */
+#mywishlist td.wishlist_delete a {
+  font-size: 15px; }
+#mywishlist td.wishlist_default p{margin:0;}
+
+/* wishlistLinkTop */
+#module-blockwishlist-mywishlist #block-order-detail #hideSendWishlist {
+  display: inline-block; }
+
+#module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list {
+  border-bottom: 1px solid #d6d4d4;
+  margin-bottom: 20px; }
+  #module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list a {
+    display: inline-block;
+    margin: 0 20px 10px 0px;
+    text-decoration: underline;
+    }
+    #module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list a:hover {}
+
+#module-blockwishlist-mywishlist .wishlistLinkTop li {
+  float: left; }
+
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideSendWishlist {
+  float: right; }
+
+#module-blockwishlist-mywishlist .wishlistLinkTop #showBoughtProducts,
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideBoughtProductsInfos {
+  display: none; }
+#module-blockwishlist-mywishlist .wishlistLinkTop form.wl_send,
+#module-blockwishlist-mywishlist .wishlistLinkTop .wlp_bought_infos{margin-top: 30px;}
+
+/* wlp_bought ****************************************** */
+/* wlp_bought_list */
+ul.wlp_bought_list li {margin-top: 30px;}
+ul.wlp_bought_list li .product_image {}
+ul.wlp_bought_list li .product_infos {margin-top: 15px;}
+ul.wlp_bought_list li .product-name {padding: 0 20px 0 0;}
+ul.wlp_bought_list li small {display: block; margin: 0 0 10px;}
+ul.wlp_bought_list li .form-group{margin: 0 0 15px;}
+ul.wlp_bought_list li .form-control{width: 100%;}
+ul.wlp_bought_list li .button {}
+
+.wishlistLinkTop .submit {
+  margin: 0 0 30px;}
+ul.wlp_bought_list li .lnkdel {float: right;}
+#block-history td a{text-decoration: underline;}
+
+ul.product_list .functional-buttons .wishlist [hidden] {display: none}
+ul.product_list .functional-buttons .wishlist .popover {
+  padding: 0;
+  min-width: 160px; }
+  ul.product_list .functional-buttons .wishlist .popover .popover-content {
+    padding: 0;
+    min-width: 158px; }
+  ul.product_list .functional-buttons .wishlist .popover table {
+    margin-bottom: 2px; }
+    ul.product_list .functional-buttons .wishlist .popover table td:hover {
+      background-color: #cccccc;
+      cursor: pointer; }
+
+[id=wishlist_button] + .popover,
+.wishlist_change_button + .popover {
+  padding: 0;
+  min-width: 150px; }
+  [id=wishlist_button] + .popover .popover-content,
+  .wishlist_change_button + .popover .popover-content {
+    padding: 0; }
+  [id=wishlist_button] + .popover table,
+  .wishlist_change_button + .popover table {
+    margin-bottom: 2px; }
+    [id=wishlist_button] + .popover table td:hover,
+    .wishlist_change_button + .popover table td:hover {
+      background-color: #cccccc;
+      cursor: pointer; }

@@ -1,0 +1,60 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+img#categoryImage {
+  margin-bottom: 26px; }
+  .content_scene_cat .content_scene_cat_bg {
+    padding: 18px 10px 10px 42px;
+    background-color: #464646 !important; }
+    
+  .content_scene_cat span.category-name {
+    font: 600 42px/51px "Open Sans", sans-serif;
+    color: white;
+    margin-bottom: 12px; }
+    
+  .content_scene_cat p {
+    margin-bottom: 0; }
+  .content_scene_cat a {
+    color: white; }
+    .content_scene_cat a:hover {
+      text-decoration: underline; }
+  .content_scene_cat .content_scene {
+    color: #777777; }
+    .content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; }
+      .content_scene_cat .content_scene .cat_desc a {
+        color: #777777; }
+        .content_scene_cat .content_scene .cat_desc a:hover {
+          color: #515151; }
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  padding: 15px 0 0px 0; 
+margin-bottom: 20px}
+  #subcategories p.subcategory-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0 15px 0; }
+  #subcategories ul {
+    margin: 0 0 0 -20px; }
+    #subcategories ul li {
+      float: left;
+      width: 153px;
+      margin: 0 0 13px 20px;
+      text-align: left;
+      height: 80px; }
+      #subcategories ul li .subcategory-image {
+        padding: 0 0 8px 0; }
+        #subcategories ul li .subcategory-image a {
+          display: block;          
+          }
+          #subcategories ul li .subcategory-image a img {
+            max-width: 100%;
+            vertical-align: top; }
+      #subcategories ul li .subcategory-name {        
+        text-transform: uppercase; }
+        
+      #subcategories ul li .cat_desc {
+        display: none; }

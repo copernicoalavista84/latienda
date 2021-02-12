@@ -1,0 +1,25 @@
+.content_scene_cat {margin-bottom:20px;}
+#category .cat_desc {color: #888; margin: 0 0 20px;}
+
+/* Sub Categories Styles */
+#subcategories{}
+#subcategories .subcategory-heading {font-size: 16px;}
+#subcategories ul {display: flex; flex-wrap: wrap;}
+#subcategories li {margin-bottom: 30px;}
+#subcategories .subcategory-content {
+	border: 1px solid #e5e5e5;
+	text-align: center;
+}
+#subcategories img{vertical-align: top;}
+#subcategories h5{
+	background: #f9f9f9;
+	border-top: 1px solid #e5e5e5;
+	font-size: 12px;
+	padding: 12px 3px;
+	text-transform: uppercase;
+}
+#subcategories .subcategory-content:hover a,
+#subcategories h5 a:hover{
+	color: #888;
+	text-decoration: none;
+}

@@ -1,0 +1,87 @@
+.owlslider{
+	position: relative;
+	width: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+.owlslider .owl-stage {
+	position: relative;
+	-ms-touch-action: pan-Y;
+	-moz-backface-visibility: hidden;
+	/* fix firefox animation glitch */
+}
+.owlslider .owl-stage-outer {
+	position: relative;
+	overflow: hidden;
+	/* fix for flashing background */
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owlslider .owl-wrapper,
+.owlslider .owl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+.owlslider .owl-item {
+	float: left;
+	-webkit-backface-visibility: hidden;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+.owlslider .owl-nav.disabled,
+.owlslider .owl-dots.disabled {
+	display: none;
+}
+.owlslider .owl-loaded {
+	display: block;
+}
+.owlslider .owl-loading {
+	opacity: 0;
+	display: block;
+}
+.owlslider .owl-hidden {
+	opacity: 0;
+}
+.owlslider .owl-refresh .owl-item {
+	visibility: hidden;
+}
+.owlslider .owl-drag .owl-item {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.owlslider .owl-grab {
+	cursor: move;
+	cursor: grab;
+}
+.owlslider .owl-rtl {
+	direction: rtl;
+}
+.owlslider .owl-rtl .owl-item {
+	float: right;
+}
+/* Direction Nav */
+.owlslider .owl-nav div {
+    background: #ff0000;
+    border-radius: 29px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "FontAwesome";
+    font-size: 23px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 45%;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    z-index: 10;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.owlslider .owl-nav div:hover{background: rgba(0, 0, 0, 0.5);}
+.owlslider .owl-nav div.disabled {display: none; cursor: default;}
+.owlslider .owl-prev {left:10px;}
+.owlslider .owl-next {right:10px;}
+.owlslider .owl-prev:before{content: "\f104";}
+.owlslider .owl-next:before{content: "\f105";}

@@ -1,0 +1,29 @@
+/* Block editorial */
+.editorial_block { margin-bottom: 45px }
+.editorial_block .rte { background: transparent none repeat scroll 0 0 }
+.editorial_block h1 {
+	margin:20px 0 20px 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 1.4em;
+    font-weight: 600;
+	background: none;
+}
+.editorial_block h2 {
+	padding:0 0 10px 0;
+	font-size: 1.1em;
+	line-height: 26px;
+	color: #444;
+	text-transform: none;
+	background: none;
+}
+#editorial_block_center p { padding-left: 0; line-height: 24px }
+#editorial_block_center .rte p {color:#444 }
+
+#editorial_block_center p#editorial_image_legend {
+   margin: 0 0 10px;
+   padding:0;
+	color: #444;
+   font-size: 10px;
+}
+

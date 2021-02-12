@@ -1,0 +1,168 @@
+
+
+#left_column {
+	float: left;
+}
+
+.button.button-small, .button.button-medium, #layer_cart .layer_cart_cart .button-container .btn.continue {
+	background: #888888;
+	color: #ffffff!important;
+}
+
+#layer_cart .layer_cart_cart .button-container .btn.continue:hover, .button.button-small span:hover, .button.button-small:hover, .button.button-medium:hover {
+	background: #666666;
+	color: #ffffff!important;
+}
+
+#wpbxslider-wrap .btn-default, .cart_block .cart-buttons a#button_order_cart, .box-info-product .exclusive, .button.ajax_add_to_cart_button span, #cart_block #cart-buttons a#button_order_cart, input.exclusive_mini, input.exclusive_small, input.exclusive, input.exclusive_large, input.exclusive_mini_disabled, input.exclusive_small_disabled, input.exclusive_disabled, input.exclusive_large_disabled, a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large, span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large, span.exclusive_large_disabled, #primary_block p.buttons_bottom_block input, #new_comment_form button, .button.button-medium.exclusive {
+	background-color: #39569d;
+	color: #ffffff!important;
+}
+
+#wpbxslider-wrap .btn-default:hover, .cart_block .cart-buttons a#button_order_cart:hover span, .cart_block .cart-buttons a#button_order_cart:hover, #wpbxslider-wrap .btn-default:hover, #layer_cart .layer_cart_cart .button-container .btn:hover, .button.button-medium.exclusive:hover, .box-info-product .exclusive:hover, .button.ajax_add_to_cart_button span:hover   {
+	background-color: #3E61B3;
+	color: #ffffff!important;
+}
+
+#layer_cart .layer_cart_cart .button-container .btn {
+	background-color: #39569d;
+	color: #ffffff!important;
+}
+
+
+/* Exclusive block headers color  */
+#special_block_right p.title_block {
+	background: #39569d;
+}
+
+#special_block_right p.title_block a {
+	color: #ffffff;
+}
+
+
+/* menu */
+#block_top_menu {
+	background: #3a5cb0;
+	background: -moz-linear-gradient(top, #3a5cb0 0%, #245395 56%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a5cb0), color-stop(56%,#245395));
+	background: -webkit-linear-gradient(top, #3a5cb0 0%, #245395 56%);
+	background: -o-linear-gradient(top, #3a5cb0 0%, #245395 56%);
+	background: -ms-linear-gradient(top, #3a5cb0 0%, #245395 56%);
+	background: linear-gradient(to bottom, #3a5cb0 0%, #245395 56%);
+}
+.sf-menu > li {
+	border-left: 1px solid #2c3e6b;
+	border-right: 1px solid #5d76b3;
+}
+
+.sf-menu > li > a {
+	color: #ffffff;
+}
+
+/* 1st level menu items font size */
+.sf-menu > li > a {
+	font-size: 13px;	
+	text-transform: uppercase;
+}
+
+/* menu active background */
+.sf-menu > li.sfHover, .sf-menu > li.sfHoverForce, .sf-menu > li > a:hover, .sf-menu > li > a:active {
+	background: #4161A0;
+}
+
+/* menu active font color */
+.sf-menu > li > a:hover, .sf-menu > li.sfHover > a, .sf-menu > li.sfHoverForce > a, .sf-menu > li > a.sf-with-ul:hover:before {
+	color: #ffffff;
+}
+
+
+/* responsive menu background color */
+@media (max-width: 767px) {
+.cat-title {
+ background: #3a5cb0;
+ border: 1px solid #3a5cb0;
+ color: #ffffff;
+}
+}
+
+/* labels */
+#featured-products_block_center ul li span.new, #special_block ul li span.new, ul#product_list li .new, .new-label {
+	background: #ffd314;
+	color: #000000;
+}
+
+.product_list.grid .price-percent-reduction, #featured-products_block_center .reduction-percent, #new-products_block .reduction-percent, #special_block .reduction-percent {
+	background: #CD2026;
+	color: #ffffff;
+}
+
+ul.product_list.grid .availability, #featured-products_block_center .availability, #new-products_block .availability, #special_block .availability {
+	display: inline;
+}
+
+/* Functional buttons */
+.functional-buttons, button.bt_compare  {
+	display: inline-block!important;
+}
+
+/* Google fonts */
+body#product h1, .footer-container #footer h4, #index #special_block h3, #index #new-products_block h3, #index #featured-products_block_center h3, .page-heading,
+.our_price_display, #wpbxslider-wrap .wpbxslider-description h2, .ei-title h2,
+#product h3.page-product-heading, .page-product-box li.section-line a,
+.block .title_block, .block h4,
+#block_top_menu .cat-title, #block_top_menu .sf-menu > li > a {
+ font-family: 'Open Sans', sans-serif;
+}
+
+/* headings */
+body#product h1, #index #special_block h3, #index #new-products_block h3, #index #featured-products_block_center h3, .page-heading,
+#wpbxslider-wrap .wpbxslider-description h2, .ei-title h2, 
+#product h3.page-product-heading, .page-product-box li.section-line a {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 14px!important;
+}
+
+
+@media (max-width: 767px) {
+#left_column {
+	display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+body {
+	background: #a3c2e1;
+	background: -moz-linear-gradient(top, #a3c2e1 0%, #3a6ba3 64%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3c2e1), color-stop(64%,#3a6ba3));
+	background: -webkit-linear-gradient(top,  #a3c2e1 0%,#3a6ba3 64%);
+	background: -o-linear-gradient(top,  #a3c2e1 0%,#3a6ba3 64%);
+	background: -ms-linear-gradient(top,  #a3c2e1 0%,#3a6ba3 64%);
+	background: linear-gradient(to bottom,  #a3c2e1 0%,#3a6ba3 64%);
+}
+}
+
+
+
+/* Megamenu headings text color */
+.sf-menu > li > ul > li > a {
+	color: #444444;
+}
+
+/* Megamenu columns text color */
+.sf-menu li li li a {
+	color: #666666;	
+}
+
+/* Megamenu subitems text on hover */
+.sf-menu > li > ul > li > a:hover, .sf-menu li li li a:hover  {
+	color: #111111;
+}
+
+
+
+

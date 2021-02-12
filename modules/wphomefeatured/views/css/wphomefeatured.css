@@ -1,0 +1,55 @@
+/* Special style for block products in center column */
+
+#featured-products_block_center {
+	margin: 35px 0 10px 0;
+  display: block;   
+	position: relative;
+  clear: both;
+  background: transparent;
+   overflow: hidden; 
+}
+
+#center_column .products_block { border: none }
+
+#featured-products_block_center h3 {
+background: none;
+color: #444
+}
+
+#center_column #featured-products_block_center h4 {
+	margin-bottom: 0px;
+	display: block-inline;
+	margin-bottom: 10px  
+}
+
+a.mycarousel-next {
+    font-family: "FontAwesome";
+    display: block;
+    float: left;    
+    width: 11px;
+    height: 20px;
+    transition: all 0.2s linear 0s;
+}
+a.mycarousel-next:hover {        
+}
+
+a.mycarousel-prev:hover {
+}
+
+a.mycarousel-prev {
+    font-family: "FontAwesome";
+    display: block;
+    float: left;    
+    margin-right: 20px;
+    width: 11px;
+    height: 20px;
+    transition: all 0.2s linear 0s;
+}
+
+a.mycarousel-next:after {        
+    content: "\f054"; 
+}
+
+a.mycarousel-prev:after {        
+    content: "\f053"; 
+}

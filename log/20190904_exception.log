@@ -1,0 +1,2 @@
+*ERROR* 	2019/09/04 - 06:33:25: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection timed out at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2019/09/04 - 06:34:39: Link to database cannot be established:SQLSTATE[HY000] [2002] Connection timed out at line 102 in file classes/db/DbPDO.php

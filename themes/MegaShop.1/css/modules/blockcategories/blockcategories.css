@@ -1,0 +1,60 @@
+/* Categories block */
+#categories_block_left{
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+#categories_block_left li {padding: 0; position:relative;}
+#categories_block_left li a{z-index:102;}
+    
+.tptn-vertical-mega-menu .menu{
+  position: relative; /* Required */
+  float:none;
+}
+.tptn-vertical-mega-menu .menu > li {border-bottom: 1px solid #e5e5e5;}
+.tptn-vertical-mega-menu > ul > li > ul{visibility: hidden; height: 0;} /* Hide menu while loading */
+.tptn-vertical-mega-menu .menu li a {
+  display: block;
+  padding:12px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.tptn-vertical-mega-menu .menu li a:hover,
+.tptn-vertical-mega-menu .menu > li.mega-hover > a {background:#f9f9f9;}
+.tptn-vertical-mega-menu .menu li a.tptn-mega {position: relative; margin-right: -1px}
+.tptn-vertical-mega-menu .menu li a .tptn-mega-icon{
+  color: #999;
+  font-size: 16px;
+  float:right;
+  display: block;
+}
+
+.tptn-vertical-mega-menu .menu li .sub-container {
+  background: #fff;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 0 !important;
+  position: absolute;
+  top:0;
+  overflow: hidden;
+  z-index:101;
+}
+.tptn-vertical-mega-menu .menu li .sub-container .sub {padding: 20px 0 0 20px;}
+.tptn-vertical-mega-menu .menu li .sub .tptnrow {width: 100%; overflow: hidden;}
+.tptn-vertical-mega-menu .menu li .sub ul ul {display: none;} /* 4th level */
+.tptn-vertical-mega-menu .menu li .sub li {width:190px;}
+.tptn-vertical-mega-menu .menu li .sub li.mega-hdr {
+  float: left;
+  margin: 0 20px 30px 0;
+}
+.tptn-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a {
+  background: none;
+  font-size: 16px;
+  padding: 0 0 0 5px;
+  margin-bottom: 10px;
+}
+.tptn-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a:hover{color: #888;}
+.tptn-vertical-mega-menu .menu .sub li a {
+  padding: 2px 5px;
+  text-transform: none;
+}
+.tptn-vertical-mega-menu .menu .sub li a:hover {background: #f5f5f5;}
+.tptn-vertical-mega-menu .menu li .sub-container.non-mega .sub {padding: 15px;}

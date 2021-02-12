@@ -1,0 +1,36 @@
+.header_user_info {
+  float: right; }
+
+.header_user_info a:after {
+  border-right: 0px solid #777;
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  height: 9px;
+  width:0px;
+  opacity: 0.7;
+}
+
+.header_user_info a:before {
+  border-right: 1px solid #777;
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  height: 9px;
+  width:0px;
+  opacity: 0.7;
+}
+
+  .header_user_info a {
+    color: #444;
+    font-weight: normal;
+    display: block;
+    padding: 1px 10px 7px 10px;
+    cursor: pointer;
+    position: relative;
+   }   
+      
+    .header_user_info a:hover, .header_user_info a.active {
+      background: transparent; }

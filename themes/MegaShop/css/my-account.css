@@ -1,0 +1,21 @@
+#my-account ul.myaccount-link-list li {margin: 15px 0;}
+#my-account ul.myaccount-link-list li a {
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+#my-account ul.myaccount-link-list li a i {
+  color: #777;
+  font-size: 20px;
+  position: absolute;
+  top: 14px;
+  margin-left: 15px;
+  text-align: center;
+}
+#my-account ul.myaccount-link-list li a span {
+  display: block;
+  padding: 15px 15px 15px 45px;
+}
+#my-account ul.myaccount-link-list li a:hover {background: #f9f9f9;}

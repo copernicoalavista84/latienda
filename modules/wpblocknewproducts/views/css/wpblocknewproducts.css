@@ -1,0 +1,15 @@
+/* Block new products */
+#new-products_block {
+position: relative;
+ display: block;
+margin: 20px 0 5px 0;
+overflow: hidden; 
+}
+
+#new-products_block h3 {
+    display: block;    
+    background: none;
+    margin-bottom: 10px;
+}
+
+#new-products_block h4 a {color: #444;}

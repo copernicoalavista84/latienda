@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-feb-2021, 16:00:46
+    Author     : fernando
+*/
+
+.cuerpo-letra {
+    font-family: 'Carter One', cursive;
+    color: #517bff;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.form-group label, .form-group a{
+    font-family: 'Carter One', cursive;
+}
+
+#create-account_form p{
+    font-family: 'Carter One', cursive;  
+}
+
+.col-xs-12.col-sm-6.col-lg-4 {
+    margin: 0 auto;
+    display: table;
+}
+
+#search_block_top {
+    width: 70%;
+    margin: 0 auto;
+    display: table;
+}
+
+.letra-3{
+    font-family: 'Carter One', cursive;
+    color: red;
+    text-align: center;
+}

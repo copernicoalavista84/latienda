@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wpstyleswitcher</name>
+	<displayName><![CDATA[Novus theme colors and settings]]></displayName>
+	<version><![CDATA[1.1.0]]></version>
+	<description><![CDATA[Setup theme colors and settings]]></description>
+	<author><![CDATA[WEB-PLUS]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

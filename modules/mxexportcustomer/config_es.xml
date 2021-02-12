@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>mxexportcustomer</name>
+	<displayName><![CDATA[Export customer by Product]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[You can now export customers who bought your products. This is great tool to reach out your customers.]]></description>
+	<author><![CDATA[OHM Conception]]></author>
+	<tab><![CDATA[export]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall this module?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

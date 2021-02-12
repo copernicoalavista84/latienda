@@ -1,0 +1,19 @@
+/* Block specials */
+#special_block {
+	position: relative;
+ 	display: block;
+	margin: 20px 0 0 0;
+  overflow: hidden;
+}
+
+#special_block h3 {
+    display: block;    
+    background: none;
+    margin-bottom: 10px;
+}
+
+#special_block h4 a {
+color: #444;
+} 
+
+#special_block .price-discount {text-decoration: line-through; padding-right: 10px}

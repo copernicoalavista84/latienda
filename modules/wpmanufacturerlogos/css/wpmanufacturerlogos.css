@@ -1,0 +1,68 @@
+#wpFooter {
+background: white;
+clear: both;
+}
+
+#wp_man.loader{background: url(../img/loader.gif) center center  no-repeat; position:relative; z-index:9999; height:89px;}
+#wp_man_wrapper{ display:none;}
+#wp_man {
+  background: white;  
+	width: 100%;
+	margin-left: 0;
+  display: inline-block;
+	padding: 20px 20px;
+	position:  relative; 
+}
+
+#wp_man a:hover img{ opacity:1;filter:alpha(opacity=100);}
+#wp_man a {
+	text-decoration: none;
+	display: block;
+	float:left;
+  margin: 0 5px;
+}
+#wp_man img {
+	display:block;
+  margin: 0 auto;	
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;
+}
+#wp_man a.prev, #wp_man a.next {	
+	width: 27px;
+	height: 27px;
+	display: block;
+	position: absolute;
+	top:37%;
+	display:none;
+	opacity:0; filter:alpha(opacity=0); -moz-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; -webkit-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; -o-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; transition: opacity 300ms ease, left 300ms ease, right 300ms ease;
+}
+
+#wp_man:hover a.prev{opacity:1;filter:alpha(opacity=100); }
+#wp_man:hover a.next{opacity:1;filter:alpha(opacity=100); }
+#wp_man a.prev { left:15px!important;	}
+#wp_man a.next { right:0px; }
+
+#wp_man a.prev:before {
+content: "\f053";
+font-size: 14px;
+font-family: "FontAwesome";
+}
+#wp_man a.next:before {
+content: "\f054";
+font-size: 14px;
+font-family: "FontAwesome";    
+}
+
+#wp_man a.prev:hover, #wp_man a.next:hover { color: #000; }
+
+#wp_man a.prev.disabled, a.next.disabled {cursor: default;  }
+#wp_man:hover a.prev.disabled, #wp_man:hover a.next.disabled {opacity: 0.2}
+#wp_man a.prev span, a.next span {
+	display: none;
+}
+

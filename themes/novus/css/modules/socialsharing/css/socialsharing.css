@@ -1,0 +1,10 @@
+.socialsharing_product button {
+	margin-bottom: 3px;
+  	border: 1px solid #eaeaea;
+  	background: #f9f9f9;
+  	font-size: 12px;
+  padding: 4px 10px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}

@@ -1,0 +1,119 @@
+  #productscategory_list {background: white; border: 1px solid #eaeaea}
+  #productscategory_list li.product-box { padding: 5px 15px}
+  #productscategory_list .bx-wrapper {
+    padding: 0;
+    *zoom: 1;
+    margin: 0 !important; 
+    position: static;}
+  #productscategory_list .bx-wrapper img {
+    max-width: 100%;
+    display: block; }
+  #productscategory_list .bx-wrapper .bx-pager,
+  #productscategory_list .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%; }
+ 
+#productscategory_list .bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px; }
+#productscategory_list .bx-wrapper .bx-pager .bx-pager-item,
+  #productscategory_list .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline; }
+#productscategory_list .bx-wrapper .bx-pager.bx-default-pager a {
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #000;
+    outline: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
+#productscategory_list .bx-wrapper .bx-pager.bx-default-pager a:hover,
+  #productscategory_list .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000; }
+#productscategory_list .bx-wrapper .bx-controls-direction a {
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    margin-top: 0;
+    position: static; }
+#productscategory_list .bx-wrapper .bx-controls-direction a:before {
+      padding: 2px;
+      color: #444;
+      background: #e5e5e5;
+      padding: 6px 8px;
+      font-family: "FontAwesome";
+      font-size: 9px;
+      line-height: 18px; }
+#productscategory_list .bx-wrapper .bx-controls-direction a:hover:before {
+      color: #333333; }
+#productscategory_list .bx-next {
+    margin-left: 5px; }
+#productscategory_list .bx-next:before {
+      content: "\f054"; }
+#productscategory_list .bx-prev {
+    }
+#productscategory_list .bx-prev:before {
+      content: "\f053"; }
+#productscategory_list .bx-wrapper .bx-controls-direction a.disabled {
+    display: none; }
+#productscategory_list .bx-wrapper .bx-controls-auto {
+    text-align: center; }
+#productscategory_list .bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url(images/controls.png) -86px -11px no-repeat;
+    margin: 0 3px; }
+#productscategory_list .bx-wrapper .bx-controls-auto .bx-start:hover,
+  
+#productscategory_list .bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url(images/controls.png) -86px -44px no-repeat;
+    margin: 0 3px; }
+  #productscategory_list .bx-wrapper .bx-controls-auto .bx-stop:hover,
+  #productscategory_list .bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px; }
+  #productscategory_list .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%; }
+#productscategory_list .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px; }
+#productscategory_list .bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666666;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%; }
+#productscategory_list .bx-wrapper .bx-caption span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: .85em;
+    padding: 10px; }
+
+#productscategory_list ul li a.exclusive { display: none; margin-bottom: 10px;}
+
+.page-product-box.blockproductscategory {position: relative;}
+.page-product-box.blockproductscategory .bx-controls {position: absolute; right: 0px; top: 14px}

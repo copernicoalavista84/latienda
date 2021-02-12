@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_1f9a34d9ad1c3628e254dd98543131d2'] = 'Loga výrobců v patičce';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_110d1caf1673b22559b9fcf42269ea4a'] = 'Přidá loga výrobců do patičky';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_d90fb9e0ee65f34161101475cb093080'] = 'Neplatné pole \"Počet zobrazených položek\", musíte zadat číslo';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_810b8c1cfdca77db48abe7c365b22513'] = 'Neplatné pole \"Posunout o\", musíte zadat číslo';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_ceb2938fb3e514806e595c14f9353585'] = 'Neplatné pole \"Trvání\", musíte zadat číslo';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_5cc12d0aaedcc3c49e1219073cd74e77'] = 'Neplatné pole \"Pauza\", musíte zadat číslo';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_c888438d14855d7d96a2724ee9c306bd'] = 'Nastavení aktualizováno';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_f4f70727dc34561dfde1a3c529b6205c'] = 'Nastavení';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_a36dbd7d8de92755434d43f8256b62fd'] = 'Vyberte velikost log';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_5f1f4a603be20459e116176e29c138f4'] = 'Vyberte velikost small nebo manufacturerlogo. Small je výchozí hodnota, která již existuje v Prestashopu. Pokud chcete použít vlastní velikost, vytvořte novou velikost obrázků s názvem manufacturerlogo v Nastavení - Obrázky a nezapomeňte regenerovat miniatury.';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_afedf9afee367f51f98d7cf030c976a6'] = 'Přechod';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_b2508c708e5bbff8aa02a68a5218890b'] = 'Počet zobrazených položek';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_1ee61cb7be3053b4c0a270b9ef37fdfc'] = 'Počet zobrazených položek';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_a13f9614cf15f9576b4a7170c6aa5f50'] = 'Posunout o';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_989a6b8da1741d331d8115f5ddd12afd'] = 'Počet položek o které se posune slider';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_e02d2ae03de9d493df2b6b2d2813d302'] = 'Trvání';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_c6c911480d60bd1e6a4c7deeeead44a5'] = 'Trvání přechodu v milisekundách';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_105b296a83f9c105355403f3332af50f'] = 'Pauza';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_d131d1568f057bbad207d56cee6e7c70'] = 'Pauza v milisekundách';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_01134f75938eecbe65b45973281f0136'] = 'Autostart';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Aktivní';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_b9f5c797ebbf55adccdd8539a65a0241'] = 'Neaktivní';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_b1b67c5913dda1805a59053dad6b586d'] = 'Nastavte zda se má slider spustit automaticky';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_64663f4646781c9c0110838b905daa23'] = 'Náhodně';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_5965e301c5eda822511aa44df04d0b35'] = 'Slider začne z náhodné pozice';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_ae2fd93db7a96c6c8eb65aa02dc03217'] = 'Opakovat';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_d154d0a705cdd554c207960e054f86a7'] = 'Nastavte zda se má slider opakovat';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_b10e24496ff8fec66189548a92a67045'] = 'Nekonečně';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_15dd64702874b0853dbee9ce534e5bce'] = 'Nastavte zda má být slider nekonečný';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_689aec5dbb7be939ccf09d804705b2c3'] = 'Pauza na nájez myši';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_5eb1178e9da96a68e1f3cab839c49333'] = 'Nastavte zda se má slider při nájezdu myši zastavit';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_c9cc8cce247e49bae79f15173ce97354'] = 'Uložit';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_49fa2426b7903b3d4c89e2c1874d9346'] = 'Více';
+$_MODULE['<{wpmanufacturerlogos}prestashop>wpmanufacturerlogos_1c407c118b89fa6feaae6b0af5fc0970'] = 'Žádný výrobce';

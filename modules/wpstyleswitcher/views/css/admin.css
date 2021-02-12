@@ -1,0 +1,79 @@
+ul.patterns {
+clear: both;
+overflow: hidden; 
+}
+ul.patterns li {
+	list-style: none;
+	float: left;
+	border: 1px solid #ddd;
+	display: block;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	margin: 5px;
+	text-align: center;
+}
+
+#options_tab a {
+	  -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+#options_tab li:first-child  a {	  
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px
+}
+
+.tab-content .tab-pane {
+	display: none;
+}
+.tab-content .tab-pane.active {
+	display: block;
+}
+#options_tab .active a {
+	color: white;
+	background: #00aff0;
+  border: 1px solid #00aff0;
+}
+#options_tab ul {
+	list-style-type: none;
+}
+
+#options_tab a.global_tab:before {
+  content:"";
+   font-family: FontAwesome;
+   padding-right: 6px;
+}
+#options_tab a.header_tab:before {
+  content:"";
+   font-family: FontAwesome;
+   padding-right: 6px;
+   vertical-align: 3px;
+}                      
+
+#options_tab a.labels_tab:before {
+  content:"";
+   font-family: FontAwesome;
+   padding-right: 6px;
+}
+#options_tab a.fonts_tab:before {
+  content:"";
+   font-family: FontAwesome;
+   padding-right: 6px;
+}
+#options_tab a.buttons_tab:before {
+    content:"";
+   font-family: FontAwesome;
+   padding-right: 6px;
+}                   
+#options_tab a.menu_tab:before {
+  content:"";
+   font-family: FontAwesome;
+   padding-right: 6px;
+}
+
